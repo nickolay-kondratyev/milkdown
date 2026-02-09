@@ -1,11 +1,11 @@
 {
-  "name": "@milkdown/plugin-listener",
+  "name": "@nickolaykondratyev/milkdown-plugin-listener",
   "type": "module",
-  "version": "7.18.0",
+  "version": "7.18.0-fix.1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Milkdown/milkdown.git",
+    "url": "git+https://github.com/nickolaykondratyev/milkdown.git",
     "directory": "packages/plugins/plugin-listener"
   },
   "keywords": [
@@ -37,9 +37,9 @@
     "src"
   ],
   "dependencies": {
-    "@milkdown/core": "workspace:*",
-    "@milkdown/ctx": "workspace:*",
-    "@milkdown/prose": "workspace:*",
+    "@milkdown/core": "^7.18.0",
+    "@milkdown/ctx": "^7.18.0",
+    "@milkdown/prose": "^7.18.0",
     "@types/lodash-es": "^4.17.12",
     "lodash-es": "^4.17.21"
   }
